@@ -14,7 +14,7 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
 	api.use('mjnetworks:famous');
-	api.use('mj:tinytest-extensions');
+	api.use('tinytest');
 
 	api.add_files('test/famous-tests.js', 'client');
 });

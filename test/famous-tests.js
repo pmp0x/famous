@@ -1,4 +1,4 @@
-TinyTest.add('mj famous - core', function (test) {
+Tinytest.add('mj famous - core', function (test) {
   test.instanceOf(famous.core.Context, Function);
   test.instanceOf(famous.core.ElementAllocator, Function);
   test.instanceOf(famous.core.Engine, Object);
@@ -17,13 +17,13 @@ TinyTest.add('mj famous - core', function (test) {
   test.instanceOf(famous.core.ViewSequence, Function);
 });
 
-TinyTest.add('mj famous - events', function (test) {
+Tinytest.add('mj famous - events', function (test) {
   test.instanceOf(famous.events.EventArbiter, Function);
   test.instanceOf(famous.events.EventFilter, Function);
   test.instanceOf(famous.events.EventMapper, Function);
 });
 
-TinyTest.add('mj famous - inputs', function (test) {
+Tinytest.add('mj famous - inputs', function (test) {
   test.instanceOf(famous.inputs.Accumulator, Function);
   test.instanceOf(famous.inputs.GenericSync, Function);
   test.instanceOf(famous.inputs.MouseSync, Function);
@@ -36,7 +36,7 @@ TinyTest.add('mj famous - inputs', function (test) {
   test.instanceOf(famous.inputs.TwoFingerSync, Function);
 });
 
-TinyTest.add('mj famous - math', function (test) {
+Tinytest.add('mj famous - math', function (test) {
   test.instanceOf(famous.math.Matrix, Function);
   test.instanceOf(famous.math.Quaternion, Function);
   test.instanceOf(famous.math.Random, Object);
@@ -44,14 +44,14 @@ TinyTest.add('mj famous - math', function (test) {
   test.instanceOf(famous.math.Vector, Function);
 });
 
-TinyTest.add('mj famous - modifiers', function (test) {
+Tinytest.add('mj famous - modifiers', function (test) {
   test.instanceOf(famous.modifiers.Draggable, Function);
   test.instanceOf(famous.modifiers.Fader, Function);
   test.instanceOf(famous.modifiers.ModifierChain, Function);
   test.instanceOf(famous.modifiers.StateModifier, Function);
 });
 
-TinyTest.add('mj famous - physics', function (test) {
+Tinytest.add('mj famous - physics', function (test) {
   test.instanceOf(famous.physics.PhysicsEngine, Function);
 
   test.instanceOf(famous.physics.bodies.Body, Function);
@@ -77,7 +77,7 @@ TinyTest.add('mj famous - physics', function (test) {
   test.instanceOf(famous.physics.forces.VectorField, Function);
 });
 
-TinyTest.addAsync('mj famous - can render surface', function (test, complete) {
+Tinytest.addAsync('mj famous - can render surface', function (test, complete) {
   var context = famous.core.Engine.createContext();
 
   var surface = new famous.core.Surface({
