@@ -2,14 +2,15 @@ var path = Npm.require('path');
 var fs = Npm.require('fs');
 
 Package.describe({
-  "summary": "Famo.us",
-	name : 'mjnetworks:famous',
-	version : '0.2.2'
+	'summary': 'Famo.us integration in meteor',
+	name: 'mjnetworks:famous',
+	version: '0.2.2-1',
+	git: 'https://github.com/mj-networks/famous'
 });
 
 Package.onUse(function (api) {
-  api.add_files('famous.js', 'client');
-  api.export('famous');
+	api.add_files('famous.js', 'client');
+	api.export('famous');
 });
 
 Package.onTest(function (api) {
