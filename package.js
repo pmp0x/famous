@@ -4,7 +4,7 @@ var fs = Npm.require('fs');
 Package.describe({
   "summary": "Famo.us",
 	name : 'mjnetworks:famous',
-	version : '0.0.1'
+	version : '0.2.2'
 });
 
 Package.onUse(function (api) {
