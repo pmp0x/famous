@@ -1,7 +1,7 @@
 #famous
 
-Meteor package for browserified version of Famo.us from https://github.com/Famous/browserify-seed
-The current version is 0.2.2.
+Meteor package with browserified version of Famo.us.
+The current version is 0.3.0 - https://github.com/Famous/famous/releases/tag/0.3.0.
 All classes are available in namespace `famous`.
 
     famous = {
@@ -145,10 +145,3 @@ Usage:
         content: '<h1>Hello Famo.us</h1>'
     });
     context.add(surface);
-
-#Patch
-
-Due to [bug](https://github.com/Famous/famous/pull/218) one line in ElementOutput must be patched to be working 
-before document body is accessible.
-
-    var usePrefix = document.createElement('div').style.webkitTransform !== undefined;

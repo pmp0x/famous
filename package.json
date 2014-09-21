@@ -1,6 +1,6 @@
 {
   "name": "mj-famous",
-  "version": "0.3.0-alpha.1",
+  "version": "0.3.0",
   "description": "seed for a browserified version of famous",
   "main": "src/index.js",
   "scripts": {
