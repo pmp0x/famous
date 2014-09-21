@@ -4,7 +4,7 @@ var fs = Npm.require('fs');
 Package.describe({
 	summary: 'Famo.us integration in meteor',
 	name: 'mjn:famous',
-	version: '0.3.0~1',
+	version: '0.3.0-1',
 	git: 'https://github.com/mj-networks/famous'
 });
 
