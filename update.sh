@@ -8,7 +8,7 @@ wget http://code.famo.us/lib/functionPrototypeBind.js -O functionPrototypeBind.j
 wget http://code.famo.us/lib/classList.js -O classList.js
 wget http://code.famo.us/lib/requestAnimationFrame.js -O requestAnimationFrame.js
 
-wget ${URL}/dist/famous-global.js -O famous-global.js
-wget ${URL}/dist/famous.css -O famous.css
+wget ${URL}/famous-global.js -O famous-global.js
+wget ${URL}/famous.css -O famous.css
 
 cd --
