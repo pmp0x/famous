@@ -1,5 +1,5 @@
 .build*
 static/*bundle.*
 node_modules
-.idea
+.idea/*
 famous.tmp
