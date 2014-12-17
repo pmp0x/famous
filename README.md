@@ -1,8 +1,7 @@
 #famo.us packaged for meteor
 
-## >>> PLEASE USE VERSION 0.3.0_5 UNTIL https://github.com/Famous/famous/issues/477 IS FIXED <<< ##
-
-Famo.us [0.3.1](https://github.com/Famous/famous/releases/tag/0.3.1) packaged for Meteor from `http://code.famo.us/famous/0.3.1/famous-global.js`.
+Famo.us [0.3.2](https://github.com/Famous/famous/releases/tag/0.3.2) packaged for 
+Meteor from `http://code.famo.us/famous/0.3.2/famous-global.js`.
 All classes are available in namespace `famous`, e.g. `famous.core.Surface`
 
 Additionally the following Famo.us [polyfills](https://github.com/Famous/polyfills) are included.
