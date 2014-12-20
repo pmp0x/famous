@@ -1,6 +1,6 @@
 #famo.us packaged for meteor
 
-Famo.us [0.3.2](https://github.com/Famous/famous/releases/tag/0.3.2) packaged for 
+Famo.us [0.3.4](https://github.com/Famous/famous/releases/tag/0.3.4) packaged for 
 Meteor from `http://code.famo.us/famous/0.3.2/famous-global.js`.
 All classes are available in namespace `famous`, e.g. `famous.core.Surface`
 
