@@ -1,7 +1,7 @@
 #famo.us packaged for meteor
 
 Famo.us [0.3.4](https://github.com/Famous/famous/releases/tag/0.3.4) packaged for 
-Meteor from `http://code.famo.us/famous/0.3.2/famous-global.js`.
+Meteor from `http://code.famo.us/famous/0.3.4/famous-global.js`.
 All classes are available in namespace `famous`, e.g. `famous.core.Surface`
 
 Additionally the following Famo.us [polyfills](https://github.com/Famous/polyfills) are included.
