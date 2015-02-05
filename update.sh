@@ -1,6 +1,6 @@
 #!/bin/sh
 
-URL="http://code.famo.us/famous/0.3.4"
+URL="http://code.famo.us/famous/0.3.5"
 
 cd src
 
