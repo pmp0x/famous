@@ -3769,7 +3769,7 @@ module.exports = TwoFingerSync;
 module.exports = {
   Accumulator: _dereq_('./Accumulator'),
   DesktopEmulationMode: _dereq_('./DesktopEmulationMode'),
-  FastClick: _dereq_('./FastClick'),
+  //FastClick: _dereq_('./FastClick'),
   GenericSync: _dereq_('./GenericSync'),
   MouseSync: _dereq_('./MouseSync'),
   PinchSync: _dereq_('./PinchSync'),
@@ -3781,7 +3781,7 @@ module.exports = {
   TwoFingerSync: _dereq_('./TwoFingerSync')
 };
 
-},{"./Accumulator":24,"./DesktopEmulationMode":25,"./FastClick":26,"./GenericSync":27,"./MouseSync":28,"./PinchSync":29,"./RotateSync":30,"./ScaleSync":31,"./ScrollSync":32,"./TouchSync":33,"./TouchTracker":34,"./TwoFingerSync":35}],37:[function(_dereq_,module,exports){
+},{"./Accumulator":24,"./DesktopEmulationMode":25,"./GenericSync":27,"./MouseSync":28,"./PinchSync":29,"./RotateSync":30,"./ScaleSync":31,"./ScrollSync":32,"./TouchSync":33,"./TouchTracker":34,"./TwoFingerSync":35}],37:[function(_dereq_,module,exports){
 var Vector = _dereq_('./Vector');
 function Matrix(values) {
     this.values = values || [
